@@ -26,6 +26,10 @@ if ( isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && ( $_SERVER['HTTP_X_FORWARDED
     $_SERVER['HTTPS'] = 'on';
 }
 
+
+
+
 include_once(plugin_dir_path(__FILE__) . 'admin-settings.php');
 include_once(plugin_dir_path(__FILE__) . 'api-functions.php');
 include_once(plugin_dir_path(__FILE__) . 'shortcode.php');
+include_once(plugin_dir_path(__FILE__) . 'styles.php');
